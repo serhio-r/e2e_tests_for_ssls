@@ -1,5 +1,5 @@
 {
-  "name": "test_task_e2e",
+  "name": "e2e_tests_for_ssls",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
