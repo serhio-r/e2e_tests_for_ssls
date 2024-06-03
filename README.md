@@ -24,5 +24,5 @@ Stack:
 
 ## 📜 Notes
 
-- By default, tests are run WITHOUT parallelism (1 worker) in Chromium browser. To change this, you need to uncomment the corresponding parameters in playwright.config.js file (fullyParallel and projects).
+- By default, tests are run WITHOUT parallelism (1 worker) in Chromium browser. To change this, you need to uncomment the corresponding parameters in `playwright.config.js` file (`fullyParallel` and `projects`).
 - If needed - use `npx playwright show-report` after tests to generate a report.
