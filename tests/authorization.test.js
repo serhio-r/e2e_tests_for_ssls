@@ -61,7 +61,7 @@ test('Autorization Page - Login with invalid email format should display error m
   // Check Password Visible after clicking "eye" icon
   await authorizationPage.clickShowPassword();
   const inputPasswordValue = await page.$eval(`${authorizationPage.passwordInput}`, el => el.value);
-  expect(inputPasswordValue).toEqual(NON_EXIST_CREDENTIALS.password);
+  expect(inputPasswordValue).toEqual(INVALID_CREDENTIALS.password);
 
   // Step 4: Click Login Button
   await authorizationPage.clickLoginButton();
